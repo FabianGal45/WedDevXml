@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is based on the company Dell -->
+<!-- https://www.dell.com/en-ie -->
+<dellProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DellProductsSchema.xsd">
+    <product code="000-01">
+        <category>Laptops</category>
+        <name>Inspiron 15 3000 Laptop</name>
+        <description>Intel® Pentium® Silver N5030 Processor (4MB Cache, up to 3.1 GHz)</description>
+        <quantity>164</quantity>
+        <unit_price>399.00</unit_price>
+    </product>
+    <product code="000-02">
+        <category>Desktops</category>
+        <name>New Inspiron Small Desktop</name>
+        <description>Intel® Pentium® Gold G-6405 processor(2-Core, 4M Cache, 4.1GHz)</description>
+        <quantity>120</quantity>
+        <unit_price>419.00</unit_price>
+    </product>
+    <product code="000-03">
+        <category>Precision Fixed Workstations</category>
+        <name>Precision 3240 Compact</name>
+        <description>Intel Core i5-10500 (6 Core, 12M cache, base 3.1GHz, up to 4.5GHz) DDR4-2666</description>
+        <quantity>200</quantity>
+        <unit_price>950.18</unit_price>
+    </product>
+    <product code="000-04">
+        <category>Monitor</category>
+        <name>Dell 23 Monitor: P2319H</name>
+        <description>Optimize your workspace with this efficient 23" monitor built with an ultrathin bezel design, a small footprint and comfort-enhancing features.</description><!-- https://www.dell.com/en-ie/shop/dell-23-monitor-p2319h/apd/210-apwt/monitors-monitor-accessories-->
+        <quantity>157</quantity>
+        <unit_price>232.47</unit_price>
+    </product>
+    <product code="000-05">
+        <category>Rack Servers</category>
+        <name>Smart Value PowerEdge R7515 Server Basic</name>
+        <description>The Dell EMC PowerEdge R7515 is a single-socket 2U server designed to handle workloads like software-defined storage, virtualization and data analytics.</description><!-- https://www.dell.com/en-ie/work/shop/servers-storage-and-networking/smart-value-poweredge-r7515-server-basic/spd/poweredge-r7515/per751501a-->
+        <quantity>56</quantity>
+        <unit_price>2444.18</unit_price>
+    </product>
+    <product code="000-06">
+        <category>Rack Servers</category>
+        <name>Smart Value PowerEdge R750xs Server Basic</name>
+        <description>The Dell EMC PowerEdge R750xs is purposefully designed with distinctive, customer-defined requirements to deliver enterprise performance for scale-out environments.</description><!-- https://www.dell.com/en-ie/work/shop/servers-storage-and-networking/smart-value-poweredge-r750xs-server-basic/spd/poweredge-r750xs/per750xs1a-->
+        <quantity>100</quantity>
+        <unit_price>2908.27</unit_price>
+    </product>
+    <product code="000-07">
+        <category>Mice and Keyboards</category>
+        <name>Dell Multi-Device Wireless Keyboard and Mouse - KM7120W - UK (QWERTY)</name>
+        <description>Seamlessly connect to three PCs.</description>
+        <quantity>192</quantity>
+        <unit_price>70.84</unit_price>
+    </product>
+    <product code="000-08">
+        <category>Mice and Keyboards</category>
+        <name>ALIENWARE LOW PROFILE RGB MECHANICAL GAMING KEYBOARD | AW510K - US INT (QWERTY)</name>
+        <description>A beautifully designed, full-featured gaming keyboard offering programmable keys and dedicated volume control. Made for ultimate performance.</description>
+        <quantity>46</quantity>
+        <unit_price>152.52</unit_price>
+    </product>
+    <product code="000-09">
+        <category>Mice and Keyboards</category>
+        <name>Dell IP65 Keyboard with Kickstand for the Latitude 12 Rugged Tablet - UK</name>
+        <description>Increase your productivity in the field by adding an IP-65 rated full-size keyboard with customizable RGB backlight to your rugged tablet. The keyboard cover also offers additional screen protection and comes with a kickstand.</description>
+        <quantity>23</quantity>
+        <unit_price>333.72</unit_price>
+    </product>
+    <product code="000-10">
+        <category>Laptops</category>
+        <name>XPS 13 Laptop</name>
+        <description>10th Generation Intel® Core™ i3-10110U (4 MB cache, 2 cores, 4 threads, 2.10 GHz to 4.10 GHz)</description>
+        <quantity>237</quantity>
+        <unit_price>729.00</unit_price>
+    </product>
+</dellProducts>

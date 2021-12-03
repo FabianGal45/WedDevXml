@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:attribute name="code" type="idType" />
+    
+    <xsd:simpleType name="idType">
+        <xsd:restriction base="xsd:ID">
+          <xsd:pattern value="\d{3}-\d{2}" /><!-- seths the code attribute to accept the following format "###-##" where # is a digit.-->
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="dellProducts">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="product" minOccurs="0" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="category" type="xsd:string"/>
+                            <xsd:element name="name" type="xsd:string"/>
+                            <xsd:element name="description" type="xsd:string"/>
+                            <xsd:element name="quantity" type="xsd:int"/>
+                            <xsd:element name="unit_price" type="xsd:double"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="code" use="required"/>   
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
